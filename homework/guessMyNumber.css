@@ -115,3 +115,41 @@ button {
     width: 12px;
     height: 12px;  
 }
+@media only screen and (max-width: 768px) {
+    #nav {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+    }
+   #title {
+        font-size: 1em;
+        text-align: center;
+
+   }
+    button {
+        width: 50px;
+        height: 35px;
+        font-size: 0.5rem;
+    }
+    .second {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .guessNumber {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .whiteSquare {
+        top: 33%;
+        right: 45%;
+    }
+    .titleContainer {
+        text-align: center;
+        font-size: 1em;
+        margin-top: 5px;
+    }
+}
